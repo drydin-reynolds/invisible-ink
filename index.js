@@ -4,7 +4,7 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const _ = require('lodash');
+const _ = require('helmet');
 
 const options = {};
 const flag = fs.readFileSync('./flag', 'utf-8').trim();
